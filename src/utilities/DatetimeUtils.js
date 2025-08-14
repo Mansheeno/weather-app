@@ -37,7 +37,7 @@ export function getUTCDatetime() {
     hour: '2-digit',
     minute: '2-digit',
     hourCycle: 'h23',
-    timeZone: 'UTC',
+    timeZone: 'Africa/Lagos',
   });
 
   const isoDateString = new Date().toISOString();
